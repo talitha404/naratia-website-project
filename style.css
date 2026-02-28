@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    
+    background: linear-gradient(180deg, #c5b49a 0%, #eaddca 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+
+.nav-atas {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-atas h2 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #2d3436; 
+}
+
+.btn-save {
+    background-color: #0984e3;
+    color: #ffffff;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(9, 132, 227, 0.4); 
+    transition: 0.3s ease;
+}
+
+.btn-save:hover {
+    background-color: #0773c5;
+    transform: translateY(-3px);
+    box-shadow: 0 15px 25px rgba(9, 132, 227, 0.5);
+}
+
+
+.bungkus-form {
+    background-color: #d7c4a9; 
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    border-radius: 40px;
+   
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #bba689;
+}
+
+.kotak-foto {
+    width: 130px;
+    height: 130px;
+    background-color: #eaddca;
+    border: 4px dashed #2d3436;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #2d3436;
+}
+
+.isian {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.isian label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-bottom: 12px;
+    color: #1a1a1a; 
+}
+
+.isian input, .isian textarea {
+    width: 100%;
+    padding: 18px;
+   
+    border: 3px solid #1a1a1a; 
+    border-radius: 20px;
+    
+    background-color: #eaddca; 
+    outline: none;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 700;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.05); 
+    transition: 0.3s;
+}
+
+.isian input:focus, .isian textarea:focus {
+    border-color: #0984e3;
+    background-color: #f1e6d5;
+}
+
+.bungkus-tabel {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 950px;
+    background: #d7c4a9; 
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #1a1a1a;
+}
+
+th {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+td {
+    padding: 18px;
+    border: 2px solid #1a1a1a;
+    color: #000;
+    font-weight: 800;
+}
