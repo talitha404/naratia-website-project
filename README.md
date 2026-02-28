@@ -9,4 +9,4 @@ Fokus utama kami adalah menghadirkan pengalaman menulis dan membaca yang persona
 |---------------------------|----------------|
 | An Nisa' Fatmawati    | 24082010053    |
 | Talitha Nabila Candra    | 24082010061    |
-| Rindi Antika Qumalasar | 24082010064 |
+| Rindi Antika Qumalasari | 24082010064 |
