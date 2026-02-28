@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naratia - Edit Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="nav-atas">
+        <span class="btn-back">&lt;</span>
+        <h2>Edit Profile</h2>
+        <button id="btn-simpan" class="btn-save">Save</button>
+    </div>
+
+    <div class="bungkus-form">
+        
+        <div class="kotak-foto">
+            <span>+</span>
+        </div>
+
+        <div class="isian">
+            <label>Username</label>
+            <input type="text" id="username" placeholder="Ex: emi_tharson27">
+        </div>
+
+        <div class="isian">
+            <label>Name</label>
+            <input type="text" id="nama" placeholder="Ex: Emi Tharson">
+        </div>
+
+        <div class="isian">
+            <label>Public bio</label>
+            <textarea id="bio" placeholder="Add your bio..."></textarea>
+        </div>
+        
+    </div>
+
+    <br><hr><br>
+
+    <div class="bungkus-tabel">
+        <table border="1" id="tabel-profil">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Name</th>
+                    <th>Bio</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="data-tabel">
+                </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
